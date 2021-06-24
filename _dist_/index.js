@@ -33,7 +33,6 @@ const handleDetails = (id) => {
     parent.classList.add("bg-gray-100");
     details[id] = true;
   }
-  console.log(details)
 };
 
 const appNode = document.querySelector("#app");
