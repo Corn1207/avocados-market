@@ -79,7 +79,7 @@ avocados.data.forEach((item, index) => {
   const container = document.createElement("div");
   container.append(image, title, price, detailsContainer);
   container.className =
-    "grid grid-rows-2 grid-cols-2 bg-gray-50 h-auto m-2 rounded-2xl cursor-pointer hover:bg-gray-100 self-start";
+    "grid grid-rows-2 grid-cols-2 bg-indigo-100 h-auto m-2 rounded-2xl cursor-pointer hover:bg-indigo-200 self-start";
   container.onclick = () => {
     handleDetails(`details-${index}`);
   };
